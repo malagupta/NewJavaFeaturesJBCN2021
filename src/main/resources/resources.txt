@@ -1,0 +1,13 @@
+Spaces at the
+end of line are deleted in
+text blocks. To add them
+use this delimiter
+or add spaces to
+your text when you copy
+paste it.
+
+
+
+"name": "Sonam Wangchuk"
+"movement": "#ILiveSimply",
+"result": "Let planet simply live"

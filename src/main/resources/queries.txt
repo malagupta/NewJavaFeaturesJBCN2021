@@ -1,0 +1,85 @@
+
+
+<P>Stop generating 6 million tons of plastic waste</P>
+<UL>
+   <LI>Keep a spoon, fork, knife in your bag.
+   <LI>Avoid using single use plastic cutlery.
+</UL>
+
+<HTML>
+    <HEAD>
+        <TITLE>Hello, Java 15</TITLE>
+    </HEAD>
+</HTML>
+
+{
+    "name": "Sonam Wangchuk",
+    "movement": "#ILiveSimply",
+    "result": "Let planet simply live"
+}
+
+SELECT id, first_name
+FROM employee
+WHERE last_name = 'GUPTA'
+ORDER BY first_name
+
+class Customer {
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}
+
+I'm a long String value, which can't fit on a
+Single line.
+"Hey!", would you prefer a cup of coffee?
+"Yes, please".
+
+
+SELECT id, first_name
+FROM employee
+WHERE last_name = 'GUPTA'
+ORDER BY first_name
+
+
+<P>Just saying don't use single-use-plastic is not enough</P>
+<UL>
+   <LI>Using planet friendly alternates can be inconvenient .
+   <LI>Embrace inconvenience to save our world.
+</UL>
+
+
+<P>Stop generating 6 million tons of plastic waste</P>
+<UL>
+   <LI>Keep a spoon, fork, knife in your bag.
+   <LI>Avoid using single use plastic cutlery.
+</UL>
+
+<HTML>
+   <BODY>
+       <P>Stop generating 6 million tons of plastic waste</P>
+       <UL>
+           <LI>Keep a spoon, fork, knife in your bag.
+           <LI>Avoid using single use plastic cutlery.
+       </UL>
+   </BODY>
+</HTML>
+
+
+{
+  "name": "web",
+  "version": "1.0.0",
+  "dependencies": "AppA"
+}
+
+
+{
+    "name": "Sonam Wangchuk"
+    "movement": "#ILiveSimply",
+    "result": "Let planet simply live"
+}
