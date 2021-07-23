@@ -1,4 +1,4 @@
 package com.jetbrains.records;
 
-public record Point(int xPos, int y) {
+public record Point(int x, int y) {
 }

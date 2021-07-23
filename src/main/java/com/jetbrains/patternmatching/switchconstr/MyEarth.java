@@ -13,27 +13,12 @@ package com.jetbrains.patternmatching.switchconstr;
 
 public class MyEarth {
 
-    int getDamageWithoutPatternMatchingForInstanceof(Object obj) {
-        int damage = 0;
-        if (obj instanceof Pollution) {
-            damage = ((Pollution)obj).getDamage();
-        }
-        else if (obj instanceof Discrimination) {
-            damage = ((Discrimination)obj).getDamageWhenDiscriminated();
-        }
-        else if (obj instanceof Deforestation) {
-            Deforestation deforestation = ((Deforestation)obj);
-            damage = deforestation.getTreeDamage();
-        }
-        return damage;
-    }
-
     int getDamage(Object obj) {
         int damage = 0;
-        if (obj instanceof Pollution pollution) {
+        if (obj instanceof final Pollution pollution) {
             damage = pollution.getDamage();
         }
-        else if (obj instanceof Discrimination discrimination) {
+        else if (obj instanceof final Discrimination discrimination) {
             damage = discrimination.getDamageWhenDiscriminated();
         }
         else if (obj instanceof Deforestation deforestation) {
@@ -45,8 +30,9 @@ public class MyEarth {
 /*
     int getDamageUsingSwitch(Object obj) {
         return switch(obj) {
-            case Pollution pollution -> pollution.getDamage();
-            case Discrimination discrimination -> discrmination.getDamageWhenDiscriminated();
+            case null -> -1;
+            case Pollution pollution && pollution.getAQI() > 99 -> pollution.getDamage();
+            case Discrimination discrimination -> discrimination.getDamageWhenDiscriminated();
             case Deforestation deforestation -> deforestation.getTreeDamage();
             default -> 0;
         };
@@ -55,7 +41,11 @@ public class MyEarth {
 
     public static void main(String[] args) {
         final var myEarth = new MyEarth();
-//        System.out.println(myEarth.getDamageUsingSwitch(new Deforestation()));
+/*
+        System.out.println(myEarth.getDamageUsingSwitch(new Deforestation()));
+        System.out.println(myEarth.getDamageUsingSwitch(new Pollution()));
+        System.out.println(myEarth.getDamageUsingSwitch(null));
+*/
     }
 }
 

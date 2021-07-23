@@ -1,6 +1,5 @@
 package com.jetbrains.switchexpressions;
 
-import com.jetbrains.sealedtypes.plants.Plant;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;

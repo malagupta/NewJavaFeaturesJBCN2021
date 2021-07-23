@@ -16,3 +16,17 @@ package com.jetbrains.util;
  */
 
 class JBCN2021Agenda { }
+
+    /*
+    int getDamageUsingSwitch(Object obj) {
+        return switch(obj) {
+            case Pollution pollution -> pollution.getDamage();
+            case Discrimination discrimination -> discrmination.getDamageWhenDiscriminated();
+            case Deforestation deforestation -> deforestation.getTreeDamage();
+            default -> 0;
+        };
+    }
+    */
+
+//        System.out.println(myEarth.getDamageUsingSwitch(new Deforestation()));
+

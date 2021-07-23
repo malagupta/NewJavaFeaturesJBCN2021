@@ -21,8 +21,4 @@ public class PresentationRecords {
     PresentationRecords() {
         String name = "Records in Java";
     }
-
-    void hello(String str) {
-        System.out.println(str.toLowerCase().toUpperCase());
-    }
 }

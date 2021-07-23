@@ -8,12 +8,12 @@
 
 <HTML>
     <HEAD>
-        <TITLE>Hello, Java 15</TITLE>
+        <TITLE>Hello, Java 17</TITLE>
     </HEAD>
 </HTML>
 
 {
-    "name": "Sonam Wangchuk",
+    "name": "Sonam Wangchuk"
     "movement": "#ILiveSimply",
     "result": "Let planet simply live"
 }

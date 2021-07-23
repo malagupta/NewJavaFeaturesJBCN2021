@@ -13,8 +13,9 @@ package com.jetbrains.patternmatching.forinstanceof;
 public class GettingStarted {
 
     void outputValueInUppercase(Object obj) {
-        if (obj instanceof String str) {
-            System.out.println(str);
+        if (obj instanceof String) {
+            String str = ((String) obj);
+            System.out.println(str.toUpperCase());
         }
     }
 }
